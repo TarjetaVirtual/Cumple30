@@ -815,11 +815,9 @@ function revealPage(){
 
 /* Stickers flotando y destellos en el intro */
 (function(){
-  const pos = [
-    {l:'4%',t:'8%',s:84,r:-14},{r:'4%',t:'12%',s:70,rr:12},
-    {l:'6%',b:'10%',s:76,r:10},{r:'6%',b:'8%',s:90,rr:-10},
-    {l:'44%',b:'3%',s:52,r:6}
-  ];
+ const pos = [
+  {l:'4%',t:'8%',s:84,r:-14}
+];
   pos.forEach((p,i)=>{
     const s = document.createElementNS('http://www.w3.org/2000/svg','svg');
     s.setAttribute('class','i-stick sticker float');
